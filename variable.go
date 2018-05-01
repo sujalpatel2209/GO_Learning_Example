@@ -11,6 +11,14 @@ func main() {
 
 	str := "String Test";
 
+	arrayVal := [5] int {2,3,4,5,6}
+
+	for _, val := range arrayVal {
+
+		fmt.Println(val);
+	}
+
+
 	fmt.Println(a+b)
 
 	fmt.Println(str)
